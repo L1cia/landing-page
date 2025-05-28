@@ -1,0 +1,452 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container{
+ width: 100%;
+ height: 100%;
+}
+
+.sub-container{
+  display: flex;
+  flex-direction:row;
+   justify-content: center;
+   margin: 40px 20; 
+  border-radius:20px;
+  padding: 20px; 
+  border: 1px solid transparent;
+  border: radius 10px; 
+  background-image:url(asset/tech_book_club_background.png)
+}
+.gradient-text{
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 72px;
+  background: -webkit-linear-gradient(#e1ad01, #433300 ,#211f17);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 30px;
+}
+.para1{
+  margin-bottom: 20px;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+}
+.btn{
+  font-family: "Space Mono", monospace;
+  Font-Weight:600;
+   Font-Size: 14px;
+  color: #211f17;
+  border: 3px solid black;
+   margin-top: 5px;
+  padding:15px;
+  cursor: pointer;
+  background-color:rgba(255, 255, 255, 0.555);
+  border-radius:10px;
+
+}
+ .avatar-container {
+  display: flex;
+   justify-content: start;
+  flex-direction:row;  
+   margin-top: 16px;
+                
+}
+
+.avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: cover; 
+} 
+.image-container{
+    width:50%;
+    padding: 30px;
+}
+img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    
+}
+.text-container{
+    width: 50%; 
+    margin: 30px;
+    padding: 30px;
+    font-family: "Open Sans", sans-serif;
+}
+.stars{
+  font-size: 1.5rem;
+  color: gold;
+}
+
+.bottom-row{
+  display: flex;
+  margin-left: 0;
+  margin-right: 0;
+  align-items: center;
+  gap: 0%; 
+  }
+  
+
+.para2{
+  color: #0a0b0b;
+  margin-top: o.95rem;
+  margin-bottom: 0;
+  font-size: 12px;
+  font-weight: 400;
+  font-family: "Space Mono", monospace;
+  letter-spacing: 0;
+
+} 
+.second-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0;
+  padding: 30px;
+   background-color:rgba(255, 255, 255, 0.527);
+}
+.second-image{
+  width:50%;
+}
+
+.text-con{
+  width: 50%;
+  padding: 50px;
+  height: 50%;
+  margin-bottom: 30px;
+}
+.second-image img{
+  width: 100%;
+  height: auto;
+}
+
+ul.custom-bullets {
+  list-style: none;       
+  padding-left: 0;
+  margin-bottom: 40px;
+}
+
+ul.custom-bullets li {
+  position: relative;      
+  padding-left: 50px;       
+  margin-bottom: 20px;     
+}
+
+ul.custom-bullets li::before {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  background-image: url(asset/check.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+h2{
+  font-size: 60px;
+  margin-bottom: 30px;
+}
+li{
+  font-size: 20px;
+}
+
+.third-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+   margin: 40px auto;
+  padding: 30px;
+  background-color:rgba(255, 255, 255, 0.527);
+
+  
+}
+.third-image{
+  width:50%;
+}
+
+.third-text{
+  width: 50%;
+  padding: 50px;
+  height: 50%;
+  margin-bottom: 30px;
+}
+
+ .highlighted-word {
+      border: 2px solid #fdba63dd;
+      border-radius: 9999px;
+      background-color: transparent;
+       padding-top:0;
+       padding-left: 10px;
+       padding-right: 10px;
+
+ }
+.third-image img{
+  width: 100%;
+  height: auto;
+}
+h3{
+  font-size: 60px;
+  margin-bottom: 30px;
+}
+.para3{
+  font-size: 22px;
+}
+.fourth-container{
+  background-color:rgba(255, 255, 255, 0.527);
+  width: 100%;
+  height: 100%;
+}
+
+.journey-section {
+  background: url(asset/tech_book_club_background.png);
+  padding: 60px 20px;
+  text-align: center;
+  font-family: monospace;
+  border-radius: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.journey-section h4 {
+   font-family: "Space Mono", monospace;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 50px;
+  margin-bottom: 5px;
+
+}
+
+.steps-container {
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 150px;
+  padding:0 1rem ;
+}
+
+.circle{
+  width: 30px;
+  background-color: white;
+  border: 2px solid #222;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.arrow {
+  width: 40px;
+
+}
+.sub-step1{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  width: 100%;
+  
+}
+.membership-section {
+  padding: 60px 20px;
+  text-align: center;
+   font-family: "Space Mono", monospace;
+  font-weight: 700;
+  font-style: normal;
+   background-color:rgba(255, 255, 255, 0.527);
+   font-size: 40px;
+  
+}
+
+.membership-section h2 {
+  font-size: 3.5rem;
+   font-family: "Space Mono", monospace;
+  font-weight: 700;
+  font-style: normal;
+  
+}
+
+.membership-plans {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  
+}
+
+.plan-card {
+  background: #fff;
+  border: 2px solid #ccc;
+  border-radius: 12px;
+  padding: 30px 20px;
+  width: 260px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  transition: transform 0.2s ease;
+}
+
+.plan-card:hover {
+  transform: translateY(-5px);
+  border-color: #000;
+}
+
+.plan-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.price {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin: 15px 0;
+}
+
+.price span {
+  font-size: 0.9rem;
+  font-weight: normal;
+  color: #777;
+}
+
+.plan-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.plan-card button {
+  background-color:rgba(151, 87, 4, 0.628);
+  color: #fff;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.plan-card.highlight {
+  background-color: #fff0fa58;
+
+}
+
+.rate{
+  color: #ffcc00;
+  margin: 10px 0;
+  font-size: 1.7rem; 
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+}
+
+.rate-text{
+  font-size:30px ;
+  margin-top: 5px;
+  margin-left: 20px;
+   margin-right: 20px;
+  padding-left: 30px;
+  padding-right: 30px; */
+
+}
+.para5{
+  margin-top:10px;
+  font-size: 15px;
+}
+
+.cta-section2 {
+  background-color: #0d1b1e;
+  color: #ffffff;
+  text-align: center;
+  padding: 50px;
+  margin-top: 40px auto;
+  font-family: monospace;
+  border-top: 2px solid #010903c1;
+  border-radius: 20px;
+  margin-top: 0;
+}
+
+.cta-content h2{
+  font-size:2rem;
+  margin-bottom: 20px;
+}
+
+.cta-btn {
+  font-family: "Space Mono", monospace;
+  Font-Weight:500;
+   Font-Size: 16px;
+   color:white;
+  border: 3px solid white;
+   margin-top: 5px;
+  padding:15px;
+  cursor: pointer;
+  background-color:transparent;
+  border-radius:10px;
+}
+
+.cta-btn:hover {
+  background-color: #ffffff;
+  color: #0a1b22;
+}
+
+.rating-group {
+  margin-left: auto;
+  margin-right: auto;
+  gap: 0.75rem;
+  margin-top: 10px;
+}
+
+.stars-icon {
+  font-size: 1.5rem;
+  color: gold;
+}
+
+.avatar-group {
+  display: flex;
+   margin-left: auto;
+   margin-right: auto;
+  gap: 0; 
+  width: 200px;
+} 
+
+.avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.para6{
+   font-family: "Space Mono", monospace;
+  font-weight: 700;
+  font-style: normal;
+  color: #f0f8ff;
+  margin-top: o.95rem;
+  margin-bottom: 40px;
+  font-size: 12px;
+  padding-left:13rem ;
+  letter-spacing: 0;
+}
+
+hr{
+  color: #0d1b1e;
+  margin-bottom: 20px;
+}
+
+.cta-footer{
+  display: flex;
+  justify-content: space-between;
+}
+
+.social-icons a {
+  color: #f0f8ff;
+}
